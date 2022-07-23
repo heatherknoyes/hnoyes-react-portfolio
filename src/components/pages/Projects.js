@@ -136,19 +136,5 @@ function Projects() {
     </Container>
   );
 }
-// return (
-//   <section className="portfolio">
-//     <h2>Hi</h2>
-{
-  /* <h2 id="nav-portfolio" class="my-3">
-        Portfolio Projects
-      </h2>
-      
-      <div class="row justify-content-center">
-         
-        
-      </div> */
-}
-// </section>
 
 export default Projects;
