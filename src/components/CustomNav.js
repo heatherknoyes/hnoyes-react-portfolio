@@ -6,11 +6,16 @@ import resume from "../images/HNoyesResume.pdf";
 
 export default function CustomNav() {
   return (
-    <Navbar className="navbar navbar-expand-lg lightBackground">
+    <Navbar
+      sticky="top"
+      collapseOnSelect
+      expand="lg"
+      className="lightBackground"
+    >
       <Nav.Link href="/">Heather Noyes</Nav.Link>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="me-auto">
+        <Nav className="mr-auto">
           <Nav.Link href="/">Home</Nav.Link>
           <Nav.Link href="/projects">Portfolio</Nav.Link>
           <Nav.Link href="/contact">Contact</Nav.Link>

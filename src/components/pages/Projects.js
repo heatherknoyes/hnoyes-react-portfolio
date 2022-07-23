@@ -16,9 +16,9 @@ function Projects() {
   return (
     <Container className="portfolio">
       <Row>
-        <Col sm={8}>
+        <Col sm={12}>
           <a
-            className="card first-project mt-4"
+            className="card mt-4"
             href="https://github.com/heatherknoyes/BarCard"
           >
             <Image
@@ -35,10 +35,10 @@ function Projects() {
           </a>
         </Col>
       </Row>
-      <Row className="justify-content-center">
-        <Col sm>
+      <Row>
+        <Col lg={4} md={6}>
           <a
-            className="card mt-4 mx-1 col-lg-3 col-md-5 col-sm"
+            className="card mt-4 mx-1"
             href="https://github.com/heatherknoyes/recall-near-me"
           >
             <Image
@@ -52,9 +52,9 @@ function Projects() {
             </div>
           </a>
         </Col>
-        <Col sm>
+        <Col lg={4} md={6}>
           <a
-            className="card mt-4 mx-1 col-lg-3 col-md-5 col-sm"
+            className="card mt-4 mx-1"
             href="https://github.com/heatherknoyes/PasswordGenerator"
           >
             <Image
@@ -68,9 +68,9 @@ function Projects() {
             </div>
           </a>
         </Col>
-        <Col sm>
+        <Col lg={4} md={6}>
           <a
-            className="card mt-4 mx-1 col-lg-3 col-md-5 col-sm"
+            className="card mt-4 mx-1"
             href="https://github.com/heatherknoyes/CodingQuestionsQuiz"
           >
             <Image
@@ -84,9 +84,9 @@ function Projects() {
             </div>
           </a>
         </Col>
-        <Col sm>
+        <Col lg={4} md={6}>
           <a
-            className="card mt-4 mx-1 col-lg-3 col-md-5 col-sm"
+            className="card mt-4 mx-1"
             href="https://github.com/heatherknoyes/WorkDayScheduler"
           >
             <Image
@@ -100,9 +100,9 @@ function Projects() {
             </div>
           </a>
         </Col>
-        <Col sm>
+        <Col lg={4} md={6}>
           <a
-            className="card mt-4 mx-1 col-lg-3 col-md-5 col-sm"
+            className="card mt-4 mx-1"
             href="https://github.com/heatherknoyes/CSSCheatSheet"
           >
             <Image
@@ -116,9 +116,9 @@ function Projects() {
             </div>
           </a>
         </Col>
-        <Col sm>
+        <Col lg={4} md={6}>
           <a
-            className="card mt-4 mx-1 col-lg-3 col-md-5 col-sm"
+            className="card mt-4 mx-1"
             href="https://github.com/heatherknoyes/WeatherDashboard"
           >
             <Image
