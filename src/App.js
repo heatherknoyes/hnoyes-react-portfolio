@@ -1,15 +1,19 @@
+import AboutMe from "./components/pages/AboutMe";
+import Projects from "./components/pages/Projects";
 import React from "react";
-import Header from "./components/Header";
-import Section from "./components/Section";
-import Navbar from "./components/Navbar";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import CustomNav from "./components/CustomNav";
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Header />
-      <Section />
-    </div>
+    <Router>
+      <CustomNav />
+      <Routes>
+        <Route path="/" element={<AboutMe />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/aboutme" element={<AboutMe />} />
+      </Routes>
+    </Router>
   );
 }
 
