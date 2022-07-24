@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import resume from "../../images/HNoyesResume.pdf";
+import "../../styles/Resume.css";
 
 export default function Resume() {
   return (
@@ -8,7 +9,7 @@ export default function Resume() {
       <h3 className="mt-5">
         Download resume{" "}
         <span>
-          <a href={resume} download>
+          <a href={resume} download className="resume">
             HERE
           </a>
         </span>

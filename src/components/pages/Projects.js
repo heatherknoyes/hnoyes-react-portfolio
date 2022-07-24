@@ -76,10 +76,7 @@ function Projects() {
         </Col>
         <Col lg={4} md={6}>
           <div className="card mt-2">
-            <a
-              className="card mt-4 mx-1"
-              href="https://heatherknoyes.github.io/CodingQuestionsQuiz"
-            >
+            <a href="https://heatherknoyes.github.io/CodingQuestionsQuiz">
               <Image
                 src={quiz}
                 className="img-fluid rounded-top"

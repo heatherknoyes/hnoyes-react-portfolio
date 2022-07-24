@@ -5,6 +5,7 @@ import AboutMe from "./pages/AboutMe";
 import Projects from "./pages/Projects";
 import { Contact } from "./pages/Contact";
 import Container from "react-bootstrap/Container";
+import CustomFooter from "./CustomFooter";
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("AboutMe");
@@ -35,6 +36,7 @@ export default function PortfolioContainer() {
       {/* We are passing the currentPage from state and the function to update it */}
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
+      <CustomFooter />
     </div>
   );
 }

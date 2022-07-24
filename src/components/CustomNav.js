@@ -6,12 +6,7 @@ import resume from "../images/HNoyesResume.pdf";
 
 export default function CustomNav() {
   return (
-    <Navbar
-      sticky="top"
-      collapseOnSelect
-      expand="lg"
-      className="lightBackground"
-    >
+    <Navbar sticky="top" collapseOnSelect expand="lg">
       <h2>Heather Noyes</h2>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
