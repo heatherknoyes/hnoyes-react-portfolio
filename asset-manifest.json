@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/hnoyes-react-portfolio/static/css/main.4a575283.css",
+    "main.js": "/hnoyes-react-portfolio/static/js/main.8906f8f3.js",
+    "static/media/FoodRecall.gif": "/hnoyes-react-portfolio/static/media/FoodRecall.9a42a72ba5e48794155f.gif",
+    "static/media/WeatherDashboardGIF.gif": "/hnoyes-react-portfolio/static/media/WeatherDashboardGIF.a58670a7710c96bde0aa.gif",
+    "static/media/WorkDaySchedulerGIF.gif": "/hnoyes-react-portfolio/static/media/WorkDaySchedulerGIF.386436a189801951ac77.gif",
+    "static/media/QuizGIF.gif": "/hnoyes-react-portfolio/static/media/QuizGIF.139f5f78b5363512f83d.gif",
+    "static/media/HNoyesPhoto.jpg": "/hnoyes-react-portfolio/static/media/HNoyesPhoto.82648fa1e8dc63774088.jpg",
+    "static/media/barcard.png": "/hnoyes-react-portfolio/static/media/barcard.8da925f85752a15893fb.png",
+    "static/media/Cheetsheet.png": "/hnoyes-react-portfolio/static/media/Cheetsheet.8bccbda924b296d5876f.png",
+    "static/media/HNoyesResume.pdf": "/hnoyes-react-portfolio/static/media/HNoyesResume.cacd8559162fd94a0a9c.pdf",
+    "static/media/passwordGenerator.png": "/hnoyes-react-portfolio/static/media/passwordGenerator.dee9c3de5bdb83f109fb.png",
+    "index.html": "/hnoyes-react-portfolio/index.html",
+    "main.4a575283.css.map": "/hnoyes-react-portfolio/static/css/main.4a575283.css.map",
+    "main.8906f8f3.js.map": "/hnoyes-react-portfolio/static/js/main.8906f8f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a575283.css",
+    "static/js/main.8906f8f3.js"
+  ]
+}
