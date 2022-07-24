@@ -3,7 +3,8 @@ import StateNav from "./StateNav";
 import Resume from "./pages/Resume";
 import AboutMe from "./pages/AboutMe";
 import Projects from "./pages/Projects";
-import Contact from "./pages/Contact";
+import { Contact } from "./pages/Contact";
+import Container from "react-bootstrap/Container";
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("AboutMe");
@@ -13,13 +14,17 @@ export default function PortfolioContainer() {
     if (currentPage === "Resume") {
       return <Resume />;
     }
-    if (currentPage === "AboutMe") {
-      return <AboutMe />;
+    if (currentPage === "Contact") {
+      return (
+        <Container>
+          <Contact />
+        </Container>
+      );
     }
     if (currentPage === "Portfolio") {
       return <Projects />;
     }
-    return <Contact />;
+    return <AboutMe />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);

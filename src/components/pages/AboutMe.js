@@ -12,7 +12,11 @@ export default function AboutMe() {
             <img src={heather} className="img-fluid" alt="Heather Noyes" />
           </div>
           <div className="col-12 col-md-6 col-lg-8 d-flex align-items-center">
+            {/* <h2 style={{ display: "block" }}>About Me</h2> */}
             <p>
+              ABOUT ME
+              <br />
+              <br />
               My name is Heather Noyes and I currently work at Ware2Go as a
               Backend Software Engineer. I graduated from the Georgia Institute
               of Technology with a Bachelors of Science in Biomedical
