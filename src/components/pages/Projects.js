@@ -17,120 +17,137 @@ function Projects() {
     <Container className="portfolio">
       <Row>
         <Col sm={12}>
-          <a
-            className="card mt-4"
-            href="https://github.com/heatherknoyes/BarCard"
-          >
-            <Image
-              className="img-fluid"
-              src={barcard}
-              alt="Second Project: BarCard - A Recipe Sharing Site"
-            />
-            <div className="custom-card-footer p-2">
-              <h3 className="card-title">Second Project: BarCard</h3>
+          <div className="card mt-2">
+            <a href="https://barcard-group13.herokuapp.com/">
+              <Image
+                className="img-fluid rounded-top"
+                src={barcard}
+                alt="BarCard - A Recipe Sharing Site"
+              />
+            </a>
+            <a
+              className="custom-card-footer p-2 rounded-bottom"
+              href="https://github.com/heatherknoyes/BarCard"
+            >
+              <h4 className="card-title">BarCard</h4>
               <p className="card-text">
                 Bootstrap, Javascript, Handlebars, Express, MySQL
               </p>
-            </div>
-          </a>
+            </a>
+          </div>
         </Col>
       </Row>
       <Row>
         <Col lg={4} md={6}>
-          <a
-            className="card mt-4 mx-1"
-            href="https://github.com/heatherknoyes/recall-near-me"
-          >
-            <Image
-              src={food}
-              className="img-fluid"
-              alt="First Project: FDA Food Recall"
-            />
-            <div className="custom-card-footer p-2">
-              <h3 className="card-title">First Project: FDA Food Recall</h3>
+          <div className="card mt-2">
+            <a href="https://bnicp.github.io/recall-near-me/">
+              <Image
+                src={food}
+                className="img-fluid rounded-top"
+                alt="FDA Food Recall"
+              />
+            </a>
+            <a
+              className="custom-card-footer p-2 rounded-bottom"
+              href="https://github.com/heatherknoyes/recall-near-me"
+            >
+              <h4 className="card-title">FDA Food Recall</h4>
               <p className="card-text">HTML/CSS, W3.CSS, Javascript</p>
-            </div>
-          </a>
+            </a>
+          </div>
         </Col>
         <Col lg={4} md={6}>
-          <a
-            className="card mt-4 mx-1"
-            href="https://github.com/heatherknoyes/PasswordGenerator"
-          >
-            <Image
-              src={password}
-              className="img-fluid"
-              alt="Password Generator: An app to generate a password based on user specifications"
-            />
-            <div className="custom-card-footer p-2">
-              <h3 className="card-title">Password Generator</h3>
+          <div className="card mt-2">
+            <a href="https://heatherknoyes.github.io/PasswordGenerator/">
+              <Image
+                src={password}
+                className="img-fluid rounded-top"
+                alt="Password Generator: An app to generate a password based on user specifications"
+              />
+            </a>
+            <a
+              className="custom-card-footer p-2 rounded-bottom"
+              href="https://github.com/heatherknoyes/PasswordGenerator"
+            >
+              <h4 className="card-title">Password Generator</h4>
               <p className="card-text">Javascript</p>
-            </div>
-          </a>
+            </a>
+          </div>
         </Col>
         <Col lg={4} md={6}>
-          <a
-            className="card mt-4 mx-1"
-            href="https://github.com/heatherknoyes/CodingQuestionsQuiz"
-          >
-            <Image
-              src={quiz}
-              className="img-fluid"
-              alt="Small video of a Javascript quiz app"
-            />
-            <div className="custom-card-footer p-2">
-              <h3 className="card-title">Javascript Quiz</h3>
+          <div className="card mt-2">
+            <a
+              className="card mt-4 mx-1"
+              href="https://heatherknoyes.github.io/CodingQuestionsQuiz"
+            >
+              <Image
+                src={quiz}
+                className="img-fluid rounded-top"
+                alt="Small video of a Javascript quiz app"
+              />
+            </a>
+            <a
+              className="custom-card-footer p-2 rounded-bottom"
+              href="https://github.com/heatherknoyes/CodingQuestionsQuiz"
+            >
+              <h4 className="card-title">Javascript Quiz</h4>
               <p className="card-text">HTML/CSS/Javascript</p>
-            </div>
-          </a>
+            </a>
+          </div>
         </Col>
         <Col lg={4} md={6}>
-          <a
-            className="card mt-4 mx-1"
-            href="https://github.com/heatherknoyes/WorkDayScheduler"
-          >
-            <Image
-              src={workday}
-              className="img-fluid"
-              alt="GIF of a workday scheduling app"
-            />
-            <div className="custom-card-footer p-2">
-              <h3 className="card-title">Workday Scheduler</h3>
+          <div className="card mt-2">
+            <a href="https://heatherknoyes.github.io/WorkDayScheduler/">
+              <Image
+                src={workday}
+                className="img-fluid rounded-top"
+                alt="GIF of a workday scheduling app"
+              />
+            </a>
+            <a
+              className="custom-card-footer p-2 rounded-bottom"
+              href="https://github.com/heatherknoyes/WorkDayScheduler"
+            >
+              <h4 className="card-title">Workday Scheduler</h4>
               <p className="card-text">HTML/CSS/Javascript</p>
-            </div>
-          </a>
+            </a>
+          </div>
         </Col>
         <Col lg={4} md={6}>
-          <a
-            className="card mt-4 mx-1"
-            href="https://github.com/heatherknoyes/CSSCheatSheet"
-          >
-            <Image
-              src={cheatsheet}
-              className="img-fluid"
-              alt="First Project: CSS Cheat Sheet"
-            />
-            <div className="custom-card-footer p-2">
-              <h3 className="card-title">CSS Cheat Sheet</h3>
+          <div className="card mt-2">
+            <a href="https://heatherknoyes.github.io/CSSCheatSheet/">
+              <Image
+                src={cheatsheet}
+                className="img-fluid rounded-top"
+                alt="First Project: CSS Cheat Sheet"
+              />
+            </a>
+            <a
+              className="custom-card-footer p-2 rounded-bottom"
+              href="https://github.com/heatherknoyes/CSSCheatSheet"
+            >
+              <h4 className="card-title">CSS Cheat Sheet</h4>
               <p className="card-text">HTML/CSS</p>
-            </div>
-          </a>
+            </a>
+          </div>
         </Col>
         <Col lg={4} md={6}>
-          <a
-            className="card mt-4 mx-1"
-            href="https://github.com/heatherknoyes/WeatherDashboard"
-          >
-            <Image
-              src={weather}
-              className="img-fluid"
-              alt="Weather Dashboard application"
-            />
-            <div className="custom-card-footer p-2">
-              <h3 className="card-title">Weather Dashboard</h3>
+          <div className="card mt-2">
+            <a href="https://heatherknoyes.github.io/WeatherDashboard/">
+              <Image
+                src={weather}
+                className="img-fluid rounded-top"
+                alt="Weather Dashboard application"
+              />
+            </a>
+            <a
+              className="custom-card-footer p-2 rounded-bottom"
+              href="https://github.com/heatherknoyes/WeatherDashboard"
+            >
+              <h4 className="card-title">Weather Dashboard</h4>
               <p className="card-text">HTML/CSS, Javascript, Bootstrap</p>
-            </div>
-          </a>
+            </a>
+          </div>
         </Col>
       </Row>
     </Container>

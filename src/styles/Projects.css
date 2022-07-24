@@ -1,0 +1,8 @@
+.custom-card-footer {
+  background-color: var(--secondLight);
+  color: var(--light);
+}
+
+.img-fluid:hover {
+  opacity: 0.5
+}
