@@ -12,11 +12,11 @@ export default function CustomNav() {
       expand="lg"
       className="lightBackground"
     >
-      <Nav.Link href="/">Heather Noyes</Nav.Link>
+      <h2>Heather Noyes</h2>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="/">Home</Nav.Link>
+          <Nav.Link href="/aboutme">About Me</Nav.Link>
           <Nav.Link href="/projects">Portfolio</Nav.Link>
           <Nav.Link href="/contact">Contact</Nav.Link>
           <Nav.Link href={resume} className="nav-link" download>

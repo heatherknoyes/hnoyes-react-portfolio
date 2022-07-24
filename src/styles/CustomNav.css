@@ -23,7 +23,7 @@ body {
   background-color: var(--dark);
 }
 
-h2, h3, p, a {
+h3, p, a {
   color: var(--light);
   text-decoration: none;
 }

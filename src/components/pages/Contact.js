@@ -10,7 +10,7 @@ export default function Contact() {
       <Form className="mt-5">
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Name</Form.Label>
-          <Form.Control type="email" placeholder="Enter email" />
+          <Form.Control type="email" placeholder="Enter name" />
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicEmail">

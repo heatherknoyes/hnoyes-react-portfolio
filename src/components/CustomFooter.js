@@ -5,10 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function CustomFooter() {
   return (
     <footer bgColor="light" className="footer text-center text-lg-left">
-      <div
-        className="text-center p-3"
-        style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
-      >
+      <div className="text-center p-3">
         &copy; {new Date().getFullYear()} Copyright:{" "}
         {/* <a href="https://github.com/heatherknoyes">
           <i className="fa fa-github" style="font-size: 36px"></i>

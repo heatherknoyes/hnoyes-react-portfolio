@@ -1,0 +1,30 @@
+:root {
+  --light: #bbbdf6;
+  --dark: #000000;
+  --secondDark: #625f63;
+  --middle: #797a9e;
+  --secondLight: #72727e;
+}
+
+
+
+.header {
+  background-color: var(--secondLight);
+}
+
+body {
+  background-color: var(--light);
+}
+
+a {
+  color: var(--dark);
+}
+
+h2 {
+  text-align: center;
+  display: inline-block;
+}
+
+label {
+  color: var(--dark);
+}
